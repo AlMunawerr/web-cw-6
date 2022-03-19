@@ -1,7 +1,5 @@
-function travel (x){
-    let travel = !prompt("ادخل الكوكب") 
-     console.log("اود السفر الى "+ x, travel);
-}
+(function travel (x= "المريخ"){
+   
+     console.log("اود السفر الى "+ x);
+})(planet);
 
-let planet = prompt("اسم الكوكب");
-travel(planet)
